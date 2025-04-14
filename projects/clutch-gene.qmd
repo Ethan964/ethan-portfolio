@@ -4,7 +4,7 @@ title: "Quantifying Clutchness – A Data-Driven Analysis of Performance Under P
 
 # Clutch Gene - MLB Postseason Performance Analysis
 
-[GitHub Repository](https://github.com/Ethan964/final-project-Ethan964)
+[GitHub Repository](https://github.com/Ethan964/clutch-gene)
 
 ## Objective
 
