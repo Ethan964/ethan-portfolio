@@ -1,0 +1,14 @@
+{
+  "index.qmd": {
+    "index.html": "da0a29da"
+  },
+  "about.qmd": {
+    "about.html": "74f70d1d"
+  },
+  "projects/clutch-gene.qmd": {
+    "clutch-gene.html": "56d8f3fb"
+  },
+  "projects/nyc-311.qmd": {
+    "nyc-311.html": "1d00681b"
+  }
+}

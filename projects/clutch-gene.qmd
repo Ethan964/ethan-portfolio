@@ -1,0 +1,47 @@
+---
+title: "Quantifying Clutchness – A Data-Driven Analysis of Performance Under Pressure in Professional Baseball"
+---
+
+# Clutch Gene - MLB Postseason Performance Analysis
+
+[GitHub Repository](https://github.com/Ethan964/final-project-Ethan964)
+
+## Objective
+
+This project investigates whether Major League Baseball players perform
+differently under high-pressure situations compared to low-pressure situations.
+It explores the idea of a "clutch gene" – the potential for players to rise 
+or fall in high-leverage situations.
+
+By analyzing detailed performance metrics and applying statistical techniques, 
+this study seeks to objectively evaluate "clutchness" and classifyplayer 
+archetypes that emerge under pressure
+
+## Data Sources
+
++ Baseball Reference - Regular Seasons & Postseason stats (2021 & 2023)
++ Metrics Analyzed :
+    - On-Base Plus Slugging (OPS)
+    - Total Bases (TB)
+    - Championship Winning Probability Added (cWPA)
+
+## Tools & Techniques
+
++ **Python**: pandas, NumPy, scikit-learn, statsmodels  
++ **Statistical Testing**: Paired sample t-tests  
++ **Machine Learning**: K-Means Clustering  
++ **Modeling**: Logistic Regression to predict postseason performance shifts  
++ **Visualization**: PCA plots, delta histograms, performance cluster maps
+
+## Key Insights
+
+
++ Statistically significant performance differences were found between regular and postseason play.
++ Players exhibited distinct archetypes, including “Postseason Risers” and “October Collapsers.”
++ Logistic models showed modest but directional predictive power for high-pressure success indicators.
+
+## Sample Visuals
+
+![Full Poster](images/Poster_04-10_copy.pdf){width=100%}
+
+![K-Means Clustering of Player Archetypes](images/kmeans_clusters_combined_halfsize_copy.png){width=100%}

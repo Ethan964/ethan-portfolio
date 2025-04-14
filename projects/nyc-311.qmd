@@ -1,0 +1,36 @@
+---
+title: 'NYC 311 Flooding Complaints Analysis'
+---
+
+# NYC 311 Flooding Complaints Patterns
+
+[GitHub Repository](https://github.com/Ethan964/nyc_flooding)
+
+## Objective
+
+This project analyzes 311 complaints in New York City related to **flooding**, 
+with the goal of identifying spatial and temporal patterns. It highlights 
+which neighborhoods and time periods experience the most flooding issues, 
+helping inform city resource planning and infrastructure development.
+
+## Data Sources
+
++ NYC Open Data - 311 Service Request Database
++ Filtered to complaints regarding "Street Flooding" or "Basin Flooding"
+
+# Tools & Techniques
+
++ **Python**: Pandas, geopandas, matplotlib, plotnine, folium
++ **Geospatial**: ZIP code mapping, complaint heatmaps
++ **Time Series Analysis**: Hourly, monthly, and seasonal complaint trends
++ **Visualization**: Static and interactive maps
+
+## Key Insights
+
++ Flooding complaints are **seasonally concentrated** in summer and fall.
++ Complaints are most common in **coastal and low-lying areas**, especially parts of Brooklyn and Queens.
++ Several ZIP codes appear consistently in top complaint volumes, suggesting persistent infrastructure challenges.
+
+## Deliverables
+
++ [GitHub Codebase](https://github.com/Ethan964/nyc_flooding)
