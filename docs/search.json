@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m Ethan Long, an aspiring data scientist from Boston currently pursuing a B.S. in Statistics at the University of Connecticut (Class of 2026).\nI’m passionate about using data to solve problems, tell stories, and drive smarter decisions — whether through predictive modeling, hypothesis testing, or visual analytics. My academic journey and hands-on projects have prepared me to work with large datasets, build models, and deliver clear insights.\n\n\n\nSports Analytics\n\nMachine Learning & AI\n\nPublic Policy & Government Data\n\nPredictive Modeling\n\nETL and Data Pipelines\n\n\n\n\n\nClutch Gene (2025): MLB postseason performance analysis using OPS, TB, and cWPA.\nNYC 311 Service Requests: Explored and analyzed 311 flooding complaints throughout NYC.\nNYC Crash Data: Cleaned & analyzed 500k+ crash records to find top contributors to severe crashes.\nLoan Approval Model: Built a stepwise logistic model in R using 700k+ mortgage applications.\n\n\n\n\nLanguages & Tools: Python, R, SQL, SAS, Tableau, Excel, scikit-learn, Statsmodels, ggplot2\nTechniques: Regression, Hypothesis Testing, Feature Engineering, Predictive Modeling, ETL, Web Scraping\n\n\n\nEmail: ethan.long@uconn.edu\nLocation: Boston, MA\nResume: Download my resume"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About Me",
+    "section": "",
+    "text": "Sports Analytics\n\nMachine Learning & AI\n\nPublic Policy & Government Data\n\nPredictive Modeling\n\nETL and Data Pipelines"
+  },
+  {
+    "objectID": "about.html#projects-ive-worked-on",
+    "href": "about.html#projects-ive-worked-on",
+    "title": "About Me",
+    "section": "",
+    "text": "Clutch Gene (2025): MLB postseason performance analysis using OPS, TB, and cWPA.\nNYC 311 Service Requests: Explored and analyzed 311 flooding complaints throughout NYC.\nNYC Crash Data: Cleaned & analyzed 500k+ crash records to find top contributors to severe crashes.\nLoan Approval Model: Built a stepwise logistic model in R using 700k+ mortgage applications."
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "About Me",
+    "section": "",
+    "text": "Languages & Tools: Python, R, SQL, SAS, Tableau, Excel, scikit-learn, Statsmodels, ggplot2\nTechniques: Regression, Hypothesis Testing, Feature Engineering, Predictive Modeling, ETL, Web Scraping"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "",
+    "text": "Email: ethan.long@uconn.edu\nLocation: Boston, MA\nResume: Download my resume"
+  },
+  {
+    "objectID": "projects/nyc-311.html",
+    "href": "projects/nyc-311.html",
+    "title": "NYC 311 Flooding Complaints Analysis",
+    "section": "",
+    "text": "GitHub Repository\n\n\nThis project analyzes 311 complaints in New York City related to flooding, with the goal of identifying spatial and temporal patterns. It highlights which neighborhoods and time periods experience the most flooding issues, helping inform city resource planning and infrastructure development.\n\n\n\n\nNYC Open Data - 311 Service Request Database\nFiltered to complaints regarding “Street Flooding” or “Basin Flooding”"
+  },
+  {
+    "objectID": "projects/nyc-311.html#objective",
+    "href": "projects/nyc-311.html#objective",
+    "title": "NYC 311 Flooding Complaints Analysis",
+    "section": "",
+    "text": "This project analyzes 311 complaints in New York City related to flooding, with the goal of identifying spatial and temporal patterns. It highlights which neighborhoods and time periods experience the most flooding issues, helping inform city resource planning and infrastructure development."
+  },
+  {
+    "objectID": "projects/nyc-311.html#data-sources",
+    "href": "projects/nyc-311.html#data-sources",
+    "title": "NYC 311 Flooding Complaints Analysis",
+    "section": "",
+    "text": "NYC Open Data - 311 Service Request Database\nFiltered to complaints regarding “Street Flooding” or “Basin Flooding”"
+  },
+  {
+    "objectID": "projects/nyc-311.html#key-insights",
+    "href": "projects/nyc-311.html#key-insights",
+    "title": "NYC 311 Flooding Complaints Analysis",
+    "section": "Key Insights",
+    "text": "Key Insights\n\nFlooding complaints are seasonally concentrated in summer and fall.\nComplaints are most common in coastal and low-lying areas, especially parts of Brooklyn and Queens.\nSeveral ZIP codes appear consistently in top complaint volumes, suggesting persistent infrastructure challenges."
+  },
+  {
+    "objectID": "projects/nyc-311.html#deliverables",
+    "href": "projects/nyc-311.html#deliverables",
+    "title": "NYC 311 Flooding Complaints Analysis",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nGitHub Codebase"
+  },
+  {
+    "objectID": "projects/clutch-gene.html",
+    "href": "projects/clutch-gene.html",
+    "title": "Quantifying Clutchness – A Data-Driven Analysis of Performance Under Pressure in Professional Baseball",
+    "section": "",
+    "text": "GitHub Repository\n\n\nThis project investigates whether Major League Baseball players perform differently under high-pressure situations compared to low-pressure situations. It explores the idea of a “clutch gene” – the potential for players to rise or fall in high-leverage situations.\nBy analyzing detailed performance metrics and applying statistical techniques, this study seeks to objectively evaluate “clutchness” and classifyplayer archetypes that emerge under pressure\n\n\n\n\nBaseball Reference - Regular Seasons & Postseason stats (2021 & 2023)\nMetrics Analyzed :\n\nOn-Base Plus Slugging (OPS)\nTotal Bases (TB)\nChampionship Winning Probability Added (cWPA)\n\n\n\n\n\n\nPython: pandas, NumPy, scikit-learn, statsmodels\n\nStatistical Testing: Paired sample t-tests\n\nMachine Learning: K-Means Clustering\n\nModeling: Logistic Regression to predict postseason performance shifts\n\nVisualization: PCA plots, delta histograms, performance cluster maps\n\n\n\n\n\nStatistically significant performance differences were found between regular and postseason play.\nPlayers exhibited distinct archetypes, including “Postseason Risers” and “October Collapsers.”\nLogistic models showed modest but directional predictive power for high-pressure success indicators.\n\n\n\n\n\n\n\nFull Poster\n\n\n\n\n\nK-Means Clustering of Player Archetypes"
+  },
+  {
+    "objectID": "projects/clutch-gene.html#objective",
+    "href": "projects/clutch-gene.html#objective",
+    "title": "Quantifying Clutchness – A Data-Driven Analysis of Performance Under Pressure in Professional Baseball",
+    "section": "",
+    "text": "This project investigates whether Major League Baseball players perform differently under high-pressure situations compared to low-pressure situations. It explores the idea of a “clutch gene” – the potential for players to rise or fall in high-leverage situations.\nBy analyzing detailed performance metrics and applying statistical techniques, this study seeks to objectively evaluate “clutchness” and classifyplayer archetypes that emerge under pressure"
+  },
+  {
+    "objectID": "projects/clutch-gene.html#data-sources",
+    "href": "projects/clutch-gene.html#data-sources",
+    "title": "Quantifying Clutchness – A Data-Driven Analysis of Performance Under Pressure in Professional Baseball",
+    "section": "",
+    "text": "Baseball Reference - Regular Seasons & Postseason stats (2021 & 2023)\nMetrics Analyzed :\n\nOn-Base Plus Slugging (OPS)\nTotal Bases (TB)\nChampionship Winning Probability Added (cWPA)"
+  },
+  {
+    "objectID": "projects/clutch-gene.html#tools-techniques",
+    "href": "projects/clutch-gene.html#tools-techniques",
+    "title": "Quantifying Clutchness – A Data-Driven Analysis of Performance Under Pressure in Professional Baseball",
+    "section": "",
+    "text": "Python: pandas, NumPy, scikit-learn, statsmodels\n\nStatistical Testing: Paired sample t-tests\n\nMachine Learning: K-Means Clustering\n\nModeling: Logistic Regression to predict postseason performance shifts\n\nVisualization: PCA plots, delta histograms, performance cluster maps"
+  },
+  {
+    "objectID": "projects/clutch-gene.html#key-insights",
+    "href": "projects/clutch-gene.html#key-insights",
+    "title": "Quantifying Clutchness – A Data-Driven Analysis of Performance Under Pressure in Professional Baseball",
+    "section": "",
+    "text": "Statistically significant performance differences were found between regular and postseason play.\nPlayers exhibited distinct archetypes, including “Postseason Risers” and “October Collapsers.”\nLogistic models showed modest but directional predictive power for high-pressure success indicators."
+  },
+  {
+    "objectID": "projects/clutch-gene.html#sample-visuals",
+    "href": "projects/clutch-gene.html#sample-visuals",
+    "title": "Quantifying Clutchness – A Data-Driven Analysis of Performance Under Pressure in Professional Baseball",
+    "section": "",
+    "text": "Full Poster\n\n\n\n\n\nK-Means Clustering of Player Archetypes"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ethan Long – Data Science Portfolio",
+    "section": "",
+    "text": "I’m a junior at the University of Connecticut studying Statistics, with a strong focus on data science, predictive modeling, and sports analytics.\nThis portfolio highlights academic projects where I’ve applied Python, R, SQL, and machine learning to solve real-world problems — from predicting MLB player performance to analyzing NYC crash data.\n\n\nClutch Gene: Quantifying Performance Under Pressure in Baseball\nAn analysis of MLB postseason vs. regular season performance using statistical testing, clustering, and logistic regression.\nNYC 311 Flooding - Complaint Trends Dashboard ` Mapped and modeled flooding complaints in NYC to identify high-risk areas and recurring seasonal patterns.\nThis site is built with Quarto."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Ethan Long – Data Science Portfolio",
+    "section": "",
+    "text": "Clutch Gene: Quantifying Performance Under Pressure in Baseball\nAn analysis of MLB postseason vs. regular season performance using statistical testing, clustering, and logistic regression.\nNYC 311 Flooding - Complaint Trends Dashboard ` Mapped and modeled flooding complaints in NYC to identify high-risk areas and recurring seasonal patterns.\nThis site is built with Quarto."
+  }
+]
