@@ -1,1 +1,105 @@
 /* css styles */
+/* Cayman Theme Colors
+   Gradient: #155799 to #159957 
+   Text: #606c71
+   Links: #1e6bb8
+*/
+
+/* Global Typography and Background */
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #606c71;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+/* Quarto Navbar - Apply Cayman Gradient */
+.navbar {
+  background-image: linear-gradient(120deg, #155799, #159957) !important;
+  border-bottom: none;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+  opacity: 0.8;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  opacity: 1;
+}
+
+/* Page Header / Title Block (Mimics the large Cayman header) */
+header#title-block-header {
+  background-image: linear-gradient(120deg, #155799, #159957);
+  color: #ffffff;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header#title-block-header h1.title {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+header#title-block-header .description {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+/* Main Content Container */
+#quarto-content {
+  max-width: 64rem; /* Cayman's max-width */
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Headings in Content */
+h1, h2, h3, h4, h5, h6 {
+  color: #159957;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+/* Links */
+a {
+  color: #1e6bb8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code Blocks & Terminal Outputs */
+pre, code {
+  font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+.sourceCode {
+  background-color: #f3f6fa;
+  border: solid 1px #dce6f0;
+  border-radius: 0.3rem;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #e9ebec;
+}
+
+th {
+  background-color: #f3f6fa;
+  color: #159957;
+  text-align: left;
+}
