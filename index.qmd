@@ -4,7 +4,7 @@ title: "Ethan Long – Data Science Portfolio"
 
 # Welcome
 
-I’m a junior at the University of Connecticut studying **Statistics**, with a 
+I’m a senior at the University of Connecticut studying **Statistics**, with a 
 strong focus on **data science, predictive modeling**, and **sports analytics**.
 
 This portfolio highlights academic projects where I’ve applied Python, R, SQL, 
@@ -22,6 +22,10 @@ testing, clustering, and logistic regression.
 `
 Mapped and modeled flooding complaints in NYC to identify high-risk areas and 
 recurring seasonal patterns.
+
+[Boston 311 Municipal Responsiveness](projects/boston_311.qmd)
+
+Predictive modeling efforts to forecast expected municipal service response times using publicly available Boston 311 data.
 
 This site is built with [Quarto](https://quarto.org/).
 

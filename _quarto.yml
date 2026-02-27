@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Ethan Long – Portfolio"
+  description: 'Data Science Portfolio highlighting projects in predictive modeling, sports analytics, and machine learning.'
+  site-url: 'https://Ethan964.github.io/ethan-portfolio'
   navbar:
     left:
       - href: index.qmd
@@ -15,6 +17,8 @@ website:
             text: Clutch Gene
           - href: projects/nyc-311.qmd
             text: NYC 311 Flooding Complaints
+          - href: projects/boston-311.qmd
+            text: Boston 311 Responsiveness
 format:
   html:
     theme:
