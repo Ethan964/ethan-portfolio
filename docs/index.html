@@ -109,6 +109,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./projects/nyc-311.html">
  <span class="dropdown-text">NYC 311 Flooding Complaints</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/boston_311.html">
+ <span class="dropdown-text">Boston 311 Responsiveness</span></a>
+  </li>  
     </ul>
   </li>
 </ul>
@@ -158,13 +162,15 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="welcome" class="level1">
 <h1>Welcome</h1>
-<p>I’m a junior at the University of Connecticut studying <strong>Statistics</strong>, with a strong focus on <strong>data science, predictive modeling</strong>, and <strong>sports analytics</strong>.</p>
+<p>I’m a senior at the University of Connecticut studying <strong>Statistics</strong>, with a strong focus on <strong>data science, predictive modeling</strong>, and <strong>sports analytics</strong>.</p>
 <p>This portfolio highlights academic projects where I’ve applied Python, R, SQL, and machine learning to solve real-world problems — from predicting MLB player performance to analyzing NYC crash data.</p>
 <section id="featured-projects" class="level2">
 <h2 class="anchored" data-anchor-id="featured-projects">Featured Projects</h2>
 <p><a href="./projects/clutch-gene.html">Clutch Gene: Quantifying Performance Under Pressure in Baseball</a></p>
 <p>An analysis of MLB postseason vs.&nbsp;regular season performance using statistical testing, clustering, and logistic regression.</p>
 <p><a href="./projects/nyc-311.html">NYC 311 Flooding - Complaint Trends Dashboard</a> ` Mapped and modeled flooding complaints in NYC to identify high-risk areas and recurring seasonal patterns.</p>
+<p><a href="./projects/boston_311.html">Boston 311 Municipal Responsiveness</a></p>
+<p>Predictive modeling efforts to forecast expected municipal service response times using publicly available Boston 311 data.</p>
 <p>This site is built with <a href="https://quarto.org/">Quarto</a>.</p>
 <hr>
 
@@ -263,7 +269,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/Ethan964\.github\.io\/ethan-portfolio");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
