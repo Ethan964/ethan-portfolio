@@ -1,0 +1,14 @@
+---
+title: "Neighborhood Neglect: Examining Inequity and Inequality of Boston 311 Service Requests"
+---
+
+# Boston 311: Analysis of Municipal Responsiveness
+
+An analysis of Boston 311 service request data, featuring predictive models 
+designed to evaluate and forecast municipal responsiveness.
+
+# Final Paper
+
+You can read the full methodology and findings in my final paper. 
+
+[Download / View the final paper](images/Boston_311_Final_Report.pdf)
