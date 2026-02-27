@@ -1,6 +1,6 @@
 project:
   type: website
-
+  output-dir: docs
 website:
   title: "Ethan Long – Portfolio"
   description: 'Data Science Portfolio highlighting projects in predictive modeling, sports analytics, and machine learning.'
