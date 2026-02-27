@@ -17,11 +17,10 @@ website:
             text: Clutch Gene
           - href: projects/nyc-311.qmd
             text: NYC 311 Flooding Complaints
-          - href: projects/boston-311.qmd
+          - href: projects/boston_311.qmd
             text: Boston 311 Responsiveness
 format:
   html:
-    theme:
-      - cosmo
+    theme: none
     css: styles.css
     toc: true
