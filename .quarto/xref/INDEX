@@ -13,5 +13,14 @@
   },
   "projects/boston_311.qmd": {
     "boston_311.html": "d2e8688d"
+  },
+  "projects/ncaa_hockey.qmd": {
+    "ncaa_hockey.html": "658591e4"
+  },
+  "projects/clutch_gene.qmd": {
+    "clutch_gene.html": "6f24f809"
+  },
+  "projects/nyc_311.qmd": {
+    "nyc_311.html": "6a3ee607"
   }
 }

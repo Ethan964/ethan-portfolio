@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>about – Ethan Long – Portfolio</title>
+<title>Quantifying Clutchness – A Data-Driven Analysis of Performance Under Pressure in Professional Baseball – Ethan Long – Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,67 +27,88 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/tabby.min.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
 
 
+<header id="title-block-header">
+<h1 class="title">Quantifying Clutchness – A Data-Driven Analysis of Performance Under Pressure in Professional Baseball</h1>
 
+</header>
 
 <nav id="TOC" role="doc-toc">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me">About Me</a>
+  <li><a href="#clutch-gene---mlb-postseason-performance-analysis" id="toc-clutch-gene---mlb-postseason-performance-analysis">Clutch Gene - MLB Postseason Performance Analysis</a>
   <ul>
-  <li><a href="#interests" id="toc-interests">Interests</a></li>
-  <li><a href="#projects-ive-worked-on" id="toc-projects-ive-worked-on">Projects I’ve Worked On</a></li>
-  <li><a href="#technical-skills" id="toc-technical-skills">Technical Skills</a></li>
-  <li><a href="#contact" id="toc-contact">Contact</a></li>
+  <li><a href="#objective" id="toc-objective">Objective</a></li>
+  <li><a href="#data-sources" id="toc-data-sources">Data Sources</a></li>
+  <li><a href="#tools-techniques" id="toc-tools-techniques">Tools &amp; Techniques</a></li>
+  <li><a href="#key-insights" id="toc-key-insights">Key Insights</a></li>
+  <li><a href="#sample-visuals" id="toc-sample-visuals">Sample Visuals</a></li>
   </ul></li>
   </ul>
 </nav>
-<h1 id="about-me">About Me</h1>
-<p>I’m Ethan Long, an aspiring data scientist from Boston currently pursuing a <strong>B.A. in Statistics</strong> at the University of Connecticut (Class of 2026).</p>
-<p>I’m passionate about using data to <strong>solve problems</strong>, <strong>tell stories</strong>, and <strong>drive smarter decisions</strong>, whether through predictive modeling, hypothesis testing, or visual analytics. My academic journey and hands-on projects have prepared me to work with large datasets, build models, and deliver clear insights.</p>
-<h2 id="interests" class="anchored">Interests</h2>
+<h1 id="clutch-gene---mlb-postseason-performance-analysis">Clutch Gene - MLB Postseason Performance Analysis</h1>
+<p><a href="https://github.com/Ethan964/clutch-gene">GitHub Repository</a> | <strong>Presented at the 2025 Connecticut Sports Analytics Symposium</strong></p>
+<h2 id="objective" class="anchored">Objective</h2>
+<p>This project investigates whether Major League Baseball players perform differently under high-pressure situations compared to low-pressure situations.</p>
+<p>By analyzing detailed performance metrics and applying statistical techniques, this study seeks to objectively evaluate “clutchness” and classify player archetypes that emerge under pressure</p>
+<h2 id="data-sources" class="anchored">Data Sources</h2>
 <ul>
-<li>Sports Analytics<br>
-</li>
-<li>Machine Learning &amp; AI<br>
-</li>
-<li>Public Policy &amp; Government Data<br>
-</li>
-<li>Predictive Modeling<br>
-</li>
-<li>ETL and Data Pipelines</li>
-</ul>
-<h2 id="projects-ive-worked-on" class="anchored">Projects I’ve Worked On</h2>
+<li>Baseball Reference - Regular Seasons &amp; Postseason stats (2021 &amp; 2023)</li>
+<li>Metrics Analyzed :
 <ul>
-<li><strong>Regional Hockey Playing Styles (2026):</strong> Division 1 Ice Hockey playing style analysis through conference alignment and regional area.</li>
-<li><strong>Clutch Gene (2025):</strong> MLB postseason performance analysis using OPS, TB, and cWPA.</li>
-<li><strong>NYC 311 Service Requests</strong>: Explored and analyzed 311 flooding complaints throughout NYC.</li>
-<li><strong>NYC Crash Data:</strong> Cleaned &amp; analyzed 500k+ crash records to find top contributors to severe crashes.</li>
-<li><strong>Boston 311 Service Requests:</strong> Developed predictive models to analyze municipal responsiveness.</li>
+<li>On-Base Plus Slugging (OPS)</li>
+<li>Total Bases (TB)</li>
+<li>Championship Winning Probability Added (cWPA)</li>
+</ul></li>
 </ul>
-<h2 id="technical-skills" class="anchored">Technical Skills</h2>
-<p><strong>Languages &amp; Tools:</strong> Python (Pandas, NumPy, scikit-learn), SQL (PostgreSQL, MySQL), R, SAS, Excel<br>
-<strong>Quantitative Methods:</strong> Statistical testing, Regression, Classification, Time series, Data cleaning, EDA <strong>Tools:</strong> Git, Jupyter, Tableau, Web Scraping (BeautifulSoup, Selenium)</p>
-<h2 id="contact" class="anchored">Contact</h2>
-<p><strong>Email</strong>: ethanklong@gmail.com <strong>Location</strong>: Boston, MA<br>
-<strong>Resume</strong>: <a href="./projects/images/resume.pdf">View my resume</a></p>
+<h2 id="tools-techniques" class="anchored">Tools &amp; Techniques</h2>
+<ul>
+<li><strong>Python</strong>: pandas, NumPy, scikit-learn, statsmodels<br>
+</li>
+<li><strong>Statistical Testing</strong>: Paired sample t-tests<br>
+</li>
+<li><strong>Machine Learning</strong>: K-Means Clustering<br>
+</li>
+<li><strong>Modeling</strong>: Logistic Regression to predict postseason performance shifts<br>
+</li>
+<li><strong>Visualization</strong>: PCA plots, delta histograms, performance cluster maps</li>
+</ul>
+<h2 id="key-insights" class="anchored">Key Insights</h2>
+<ul>
+<li>Statistically significant performance differences were found between regular and postseason play.</li>
+<li>Players exhibited distinct archetypes, including “Postseason Risers” and “October Collapsers.”</li>
+<li>Logistic models showed modest but directional predictive power for high-pressure success indicators.</li>
+</ul>
+<h2 id="sample-visuals" class="anchored">Sample Visuals</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><embed src="images/Poster_04-10_copy.pdf" class="img-fluid" style="width:100.0%"></p>
+<figcaption>Full Poster</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img src="images/kmeans_clusters_combined_halfsize_copy.png" class="img-fluid" style="width:100.0%"></p>
+<figcaption>K-Means Clustering of Player Archetypes</figcaption>
+</figure>
+</div>
 
 
 <script id="quarto-html-after-body" type="application/javascript">

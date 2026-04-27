@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>about – Ethan Long – Portfolio</title>
+<title>NCAA Hockey Performance Dashboard – Neutralizing Conference Bias – Ethan Long – Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,67 +27,60 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/tabby.min.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
 
 
+<header id="title-block-header">
+<h1 class="title">NCAA Hockey Performance Dashboard – Neutralizing Conference Bias</h1>
 
+</header>
 
 <nav id="TOC" role="doc-toc">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me">About Me</a>
+  <li><a href="#evaluating-player-performance-across-conferences" id="toc-evaluating-player-performance-across-conferences">Evaluating Player Performance Across Conferences</a>
   <ul>
-  <li><a href="#interests" id="toc-interests">Interests</a></li>
-  <li><a href="#projects-ive-worked-on" id="toc-projects-ive-worked-on">Projects I’ve Worked On</a></li>
-  <li><a href="#technical-skills" id="toc-technical-skills">Technical Skills</a></li>
-  <li><a href="#contact" id="toc-contact">Contact</a></li>
+  <li><a href="#objective" id="toc-objective">Objective</a></li>
+  <li><a href="#data-sources" id="toc-data-sources">Data Sources</a></li>
+  <li><a href="#tools-techniques" id="toc-tools-techniques">Tools &amp; Techniques</a></li>
+  <li><a href="#key-features" id="toc-key-features">Key Features</a></li>
   </ul></li>
   </ul>
 </nav>
-<h1 id="about-me">About Me</h1>
-<p>I’m Ethan Long, an aspiring data scientist from Boston currently pursuing a <strong>B.A. in Statistics</strong> at the University of Connecticut (Class of 2026).</p>
-<p>I’m passionate about using data to <strong>solve problems</strong>, <strong>tell stories</strong>, and <strong>drive smarter decisions</strong>, whether through predictive modeling, hypothesis testing, or visual analytics. My academic journey and hands-on projects have prepared me to work with large datasets, build models, and deliver clear insights.</p>
-<h2 id="interests" class="anchored">Interests</h2>
+<h1 id="evaluating-player-performance-across-conferences">Evaluating Player Performance Across Conferences</h1>
+<p><a href="http://ncaa-hockey.streamlit.app/">Live Streamlit Dashboard</a></p>
+<h2 id="objective" class="anchored">Objective</h2>
+<p>This project aims to provide a more accurate evaluation of NCAA hockey players by neutralizing “conference bias.” Because different collegiate conferences feature varying levels of competition and distinct styles of play, raw performance metrics can often be misleading when comparing players across the country. This interactive dashboard adjusts for these competitive discrepancies to establish a level playing field for player evaluation.</p>
+<h2 id="data-sources" class="anchored">Data Sources</h2>
 <ul>
-<li>Sports Analytics<br>
-</li>
-<li>Machine Learning &amp; AI<br>
-</li>
-<li>Public Policy &amp; Government Data<br>
-</li>
-<li>Predictive Modeling<br>
-</li>
-<li>ETL and Data Pipelines</li>
+<li><strong>SportLogiq Tracking Data</strong>: Granular tracking and event data utilized to construct advanced, context-aware performance metrics.</li>
 </ul>
-<h2 id="projects-ive-worked-on" class="anchored">Projects I’ve Worked On</h2>
+<h2 id="tools-techniques" class="anchored">Tools &amp; Techniques</h2>
 <ul>
-<li><strong>Regional Hockey Playing Styles (2026):</strong> Division 1 Ice Hockey playing style analysis through conference alignment and regional area.</li>
-<li><strong>Clutch Gene (2025):</strong> MLB postseason performance analysis using OPS, TB, and cWPA.</li>
-<li><strong>NYC 311 Service Requests</strong>: Explored and analyzed 311 flooding complaints throughout NYC.</li>
-<li><strong>NYC Crash Data:</strong> Cleaned &amp; analyzed 500k+ crash records to find top contributors to severe crashes.</li>
-<li><strong>Boston 311 Service Requests:</strong> Developed predictive models to analyze municipal responsiveness.</li>
+<li><strong>Python</strong>: Data cleaning, metric calculation, and backend logic.</li>
+<li><strong>Streamlit</strong>: Development and deployment of the interactive web application.</li>
+<li><strong>Statistical Adjustment</strong>: Developing methodologies to isolate player skill from conference strength and neutralize bias.</li>
 </ul>
-<h2 id="technical-skills" class="anchored">Technical Skills</h2>
-<p><strong>Languages &amp; Tools:</strong> Python (Pandas, NumPy, scikit-learn), SQL (PostgreSQL, MySQL), R, SAS, Excel<br>
-<strong>Quantitative Methods:</strong> Statistical testing, Regression, Classification, Time series, Data cleaning, EDA <strong>Tools:</strong> Git, Jupyter, Tableau, Web Scraping (BeautifulSoup, Selenium)</p>
-<h2 id="contact" class="anchored">Contact</h2>
-<p><strong>Email</strong>: ethanklong@gmail.com <strong>Location</strong>: Boston, MA<br>
-<strong>Resume</strong>: <a href="./projects/images/resume.pdf">View my resume</a></p>
+<h2 id="key-features" class="anchored">Key Features</h2>
+<ul>
+<li>Interactive interface allowing users to filter and compare players across the NCAA.</li>
+<li>Visualizations of conference-adjusted metrics for fairer, cross-conference talent assessment.</li>
+</ul>
 
 
 <script id="quarto-html-after-body" type="application/javascript">

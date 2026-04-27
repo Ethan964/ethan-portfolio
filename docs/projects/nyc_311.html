@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>about – Ethan Long – Portfolio</title>
+<title>NYC 311 Flooding Complaints Analysis – Ethan Long – Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,67 +27,70 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/tabby.min.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
 
 
+<header id="title-block-header">
+<h1 class="title">NYC 311 Flooding Complaints Analysis</h1>
 
+</header>
 
 <nav id="TOC" role="doc-toc">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me">About Me</a>
+  <li><a href="#nyc-311-flooding-complaints-patterns" id="toc-nyc-311-flooding-complaints-patterns">NYC 311 Flooding Complaints Patterns</a>
   <ul>
-  <li><a href="#interests" id="toc-interests">Interests</a></li>
-  <li><a href="#projects-ive-worked-on" id="toc-projects-ive-worked-on">Projects I’ve Worked On</a></li>
-  <li><a href="#technical-skills" id="toc-technical-skills">Technical Skills</a></li>
-  <li><a href="#contact" id="toc-contact">Contact</a></li>
+  <li><a href="#objective" id="toc-objective">Objective</a></li>
+  <li><a href="#data-sources" id="toc-data-sources">Data Sources</a></li>
+  </ul></li>
+  <li><a href="#tools-techniques" id="toc-tools-techniques">Tools &amp; Techniques</a>
+  <ul>
+  <li><a href="#key-insights" id="toc-key-insights">Key Insights</a></li>
+  <li><a href="#deliverables" id="toc-deliverables">Deliverables</a></li>
   </ul></li>
   </ul>
 </nav>
-<h1 id="about-me">About Me</h1>
-<p>I’m Ethan Long, an aspiring data scientist from Boston currently pursuing a <strong>B.A. in Statistics</strong> at the University of Connecticut (Class of 2026).</p>
-<p>I’m passionate about using data to <strong>solve problems</strong>, <strong>tell stories</strong>, and <strong>drive smarter decisions</strong>, whether through predictive modeling, hypothesis testing, or visual analytics. My academic journey and hands-on projects have prepared me to work with large datasets, build models, and deliver clear insights.</p>
-<h2 id="interests" class="anchored">Interests</h2>
+<h1 id="nyc-311-flooding-complaints-patterns">NYC 311 Flooding Complaints Patterns</h1>
+<p><a href="https://github.com/Ethan964/nyc_flooding">GitHub Repository</a></p>
+<h2 id="objective" class="anchored">Objective</h2>
+<p>This project analyzes 311 complaints in New York City related to <strong>flooding</strong>, with the goal of identifying spatial and temporal patterns. It highlights which neighborhoods and time periods experience the most flooding issues, helping inform city resource planning and infrastructure development.</p>
+<h2 id="data-sources" class="anchored">Data Sources</h2>
 <ul>
-<li>Sports Analytics<br>
-</li>
-<li>Machine Learning &amp; AI<br>
-</li>
-<li>Public Policy &amp; Government Data<br>
-</li>
-<li>Predictive Modeling<br>
-</li>
-<li>ETL and Data Pipelines</li>
+<li>NYC Open Data - 311 Service Request Database</li>
+<li>Filtered to complaints regarding “Street Flooding” or “Basin Flooding”</li>
 </ul>
-<h2 id="projects-ive-worked-on" class="anchored">Projects I’ve Worked On</h2>
+<h1 id="tools-techniques">Tools &amp; Techniques</h1>
 <ul>
-<li><strong>Regional Hockey Playing Styles (2026):</strong> Division 1 Ice Hockey playing style analysis through conference alignment and regional area.</li>
-<li><strong>Clutch Gene (2025):</strong> MLB postseason performance analysis using OPS, TB, and cWPA.</li>
-<li><strong>NYC 311 Service Requests</strong>: Explored and analyzed 311 flooding complaints throughout NYC.</li>
-<li><strong>NYC Crash Data:</strong> Cleaned &amp; analyzed 500k+ crash records to find top contributors to severe crashes.</li>
-<li><strong>Boston 311 Service Requests:</strong> Developed predictive models to analyze municipal responsiveness.</li>
+<li><strong>Python</strong>: Pandas, geopandas, matplotlib, plotnine, folium</li>
+<li><strong>Geospatial</strong>: ZIP code mapping, complaint heatmaps</li>
+<li><strong>Time Series Analysis</strong>: Hourly, monthly, and seasonal complaint trends</li>
+<li><strong>Visualization</strong>: Static and interactive maps</li>
 </ul>
-<h2 id="technical-skills" class="anchored">Technical Skills</h2>
-<p><strong>Languages &amp; Tools:</strong> Python (Pandas, NumPy, scikit-learn), SQL (PostgreSQL, MySQL), R, SAS, Excel<br>
-<strong>Quantitative Methods:</strong> Statistical testing, Regression, Classification, Time series, Data cleaning, EDA <strong>Tools:</strong> Git, Jupyter, Tableau, Web Scraping (BeautifulSoup, Selenium)</p>
-<h2 id="contact" class="anchored">Contact</h2>
-<p><strong>Email</strong>: ethanklong@gmail.com <strong>Location</strong>: Boston, MA<br>
-<strong>Resume</strong>: <a href="./projects/images/resume.pdf">View my resume</a></p>
+<h2 id="key-insights" class="anchored">Key Insights</h2>
+<ul>
+<li>Flooding complaints are <strong>seasonally concentrated</strong> in summer and fall.</li>
+<li>Complaints are most common in <strong>coastal and low-lying areas</strong>, especially parts of Brooklyn and Queens.</li>
+<li>Several ZIP codes appear consistently in top complaint volumes, suggesting persistent infrastructure challenges.</li>
+</ul>
+<h2 id="deliverables" class="anchored">Deliverables</h2>
+<ul>
+<li><a href="https://github.com/Ethan964/nyc_flooding">GitHub Codebase</a></li>
+</ul>
 
 
 <script id="quarto-html-after-body" type="application/javascript">
