@@ -23,72 +23,189 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1b5cbb678aba238cc9ecc8dbef59e0a8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body>
+<body class="nav-fixed quarto-light">
 
-
-<header id="title-block-header">
-<h1 class="title">NCAA Hockey Performance Dashboard – Neutralizing Conference Bias</h1>
-
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Ethan Long – Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../projects/ncaa_hockey.html">
+ <span class="dropdown-text">NCAA Hockey Dashboard</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../projects/clutch_gene.html">
+ <span class="dropdown-text">Clutch Gene</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../projects/nyc_311.html">
+ <span class="dropdown-text">NYC 311 Flooding Complaints</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../projects/boston_311.html">
+ <span class="dropdown-text">Boston 311 Responsiveness</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
-
-<nav id="TOC" role="doc-toc">
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#evaluating-player-performance-across-conferences" id="toc-evaluating-player-performance-across-conferences">Evaluating Player Performance Across Conferences</a>
-  <ul>
-  <li><a href="#objective" id="toc-objective">Objective</a></li>
-  <li><a href="#data-sources" id="toc-data-sources">Data Sources</a></li>
-  <li><a href="#tools-techniques" id="toc-tools-techniques">Tools &amp; Techniques</a></li>
-  <li><a href="#key-features" id="toc-key-features">Key Features</a></li>
+  <li><a href="#evaluating-player-performance-across-conferences" id="toc-evaluating-player-performance-across-conferences" class="nav-link active" data-scroll-target="#evaluating-player-performance-across-conferences">Evaluating Player Performance Across Conferences</a>
+  <ul class="collapse">
+  <li><a href="#objective" id="toc-objective" class="nav-link" data-scroll-target="#objective">Objective</a></li>
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
+  <li><a href="#tools-techniques" id="toc-tools-techniques" class="nav-link" data-scroll-target="#tools-techniques">Tools &amp; Techniques</a></li>
+  <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key Features</a></li>
   </ul></li>
   </ul>
 </nav>
-<h1 id="evaluating-player-performance-across-conferences">Evaluating Player Performance Across Conferences</h1>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">NCAA Hockey Performance Dashboard – Neutralizing Conference Bias</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="evaluating-player-performance-across-conferences" class="level1">
+<h1>Evaluating Player Performance Across Conferences</h1>
 <p><a href="http://ncaa-hockey.streamlit.app/">Live Streamlit Dashboard</a></p>
-<h2 id="objective" class="anchored">Objective</h2>
+<section id="objective" class="level2">
+<h2 class="anchored" data-anchor-id="objective">Objective</h2>
 <p>This project aims to provide a more accurate evaluation of NCAA hockey players by neutralizing “conference bias.” Because different collegiate conferences feature varying levels of competition and distinct styles of play, raw performance metrics can often be misleading when comparing players across the country. This interactive dashboard adjusts for these competitive discrepancies to establish a level playing field for player evaluation.</p>
-<h2 id="data-sources" class="anchored">Data Sources</h2>
+</section>
+<section id="data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources">Data Sources</h2>
 <ul>
 <li><strong>SportLogiq Tracking Data</strong>: Granular tracking and event data utilized to construct advanced, context-aware performance metrics.</li>
 </ul>
-<h2 id="tools-techniques" class="anchored">Tools &amp; Techniques</h2>
+</section>
+<section id="tools-techniques" class="level2">
+<h2 class="anchored" data-anchor-id="tools-techniques">Tools &amp; Techniques</h2>
 <ul>
 <li><strong>Python</strong>: Data cleaning, metric calculation, and backend logic.</li>
 <li><strong>Streamlit</strong>: Development and deployment of the interactive web application.</li>
 <li><strong>Statistical Adjustment</strong>: Developing methodologies to isolate player skill from conference strength and neutralize bias.</li>
 </ul>
-<h2 id="key-features" class="anchored">Key Features</h2>
+</section>
+<section id="key-features" class="level2">
+<h2 class="anchored" data-anchor-id="key-features">Key Features</h2>
 <ul>
 <li>Interactive interface allowing users to filter and compare players across the NCAA.</li>
 <li>Visualizations of conference-adjusted metrics for fairer, cross-conference talent assessment.</li>
 </ul>
 
 
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
-    tabsets.forEach(function(tabset) {
-      const tabby = new Tabby('#' + tabset.id);
-    });
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -187,7 +304,7 @@ ul.task-list li input[type="checkbox"] {
         },
         interactive: true,
         interactiveBorder: 10,
-        theme: 'light-border',
+        theme: 'quarto',
         placement: 'bottom-start',
       };
       if (contentFn) {
@@ -487,6 +604,7 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+</div> <!-- /content -->
 
 
 

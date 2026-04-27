@@ -24,3 +24,7 @@ This project aims to provide a more accurate evaluation of NCAA hockey players b
 
 - Interactive interface allowing users to filter and compare players across the NCAA.
 - Visualizations of conference-adjusted metrics for fairer, cross-conference talent assessment.
+
+## Sample Visuals
+
+![Full Poster](images/2026_CSAS_poster.pdf){width=100%}

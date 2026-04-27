@@ -123,13 +123,48 @@
     "href": "index.html",
     "title": "Ethan Long – Data Science Portfolio",
     "section": "",
-    "text": "I’m a senior at the University of Connecticut studying Statistics, with a strong focus on data science, predictive modeling, and sports analytics.\nThis portfolio highlights academic projects where I’ve applied Python, R, SQL, and machine learning to solve real-world problems — from predicting MLB player performance to analyzing NYC crash data.\n\n\nClutch Gene: Quantifying Performance Under Pressure in Baseball\nAn analysis of MLB postseason vs. regular season performance using statistical testing, clustering, and logistic regression.\nNYC 311 Flooding - Complaint Trends Dashboard ` Mapped and modeled flooding complaints in NYC to identify high-risk areas and recurring seasonal patterns.\nBoston 311 Municipal Responsiveness\nPredictive modeling efforts to forecast expected municipal service response times using publicly available Boston 311 data.\nThis site is built with Quarto."
+    "text": "I’m a senior at the University of Connecticut studying Statistics, with a strong focus on data science, predictive modeling, and sports analytics.\nThis portfolio highlights academic projects where I’ve applied Python, R, SQL, and machine learning to solve real-world problems — from predicting MLB player performance to analyzing NYC crash data.\n\n\nNCAA Hockey Performance Dashboard An interactive Streamlit dashboard analyzing SportLogiq tracking data to evaluate player performance by neutralizing conference bias.\nNYC 311 Flooding - Complaint Trends Dashboard ` Mapped and modeled flooding complaints in NYC to identify high-risk areas and recurring seasonal patterns.\nBoston 311 Municipal Responsiveness\nPredictive modeling efforts to forecast expected municipal service response times using publicly available Boston 311 data.\nThis site is built with Quarto."
   },
   {
     "objectID": "index.html#featured-projects",
     "href": "index.html#featured-projects",
     "title": "Ethan Long – Data Science Portfolio",
     "section": "",
-    "text": "Clutch Gene: Quantifying Performance Under Pressure in Baseball\nAn analysis of MLB postseason vs. regular season performance using statistical testing, clustering, and logistic regression.\nNYC 311 Flooding - Complaint Trends Dashboard ` Mapped and modeled flooding complaints in NYC to identify high-risk areas and recurring seasonal patterns.\nBoston 311 Municipal Responsiveness\nPredictive modeling efforts to forecast expected municipal service response times using publicly available Boston 311 data.\nThis site is built with Quarto."
+    "text": "NCAA Hockey Performance Dashboard An interactive Streamlit dashboard analyzing SportLogiq tracking data to evaluate player performance by neutralizing conference bias.\nNYC 311 Flooding - Complaint Trends Dashboard ` Mapped and modeled flooding complaints in NYC to identify high-risk areas and recurring seasonal patterns.\nBoston 311 Municipal Responsiveness\nPredictive modeling efforts to forecast expected municipal service response times using publicly available Boston 311 data.\nThis site is built with Quarto."
+  },
+  {
+    "objectID": "projects/ncaa_hockey.html",
+    "href": "projects/ncaa_hockey.html",
+    "title": "NCAA Hockey Performance Dashboard – Neutralizing Conference Bias",
+    "section": "",
+    "text": "Live Streamlit Dashboard\n\n\nThis project aims to provide a more accurate evaluation of NCAA hockey players by neutralizing “conference bias.” Because different collegiate conferences feature varying levels of competition and distinct styles of play, raw performance metrics can often be misleading when comparing players across the country. This interactive dashboard adjusts for these competitive discrepancies to establish a level playing field for player evaluation.\n\n\n\n\nSportLogiq Tracking Data: Granular tracking and event data utilized to construct advanced, context-aware performance metrics.\n\n\n\n\n\nPython: Data cleaning, metric calculation, and backend logic.\nStreamlit: Development and deployment of the interactive web application.\nStatistical Adjustment: Developing methodologies to isolate player skill from conference strength and neutralize bias.\n\n\n\n\n\nInteractive interface allowing users to filter and compare players across the NCAA.\nVisualizations of conference-adjusted metrics for fairer, cross-conference talent assessment."
+  },
+  {
+    "objectID": "projects/ncaa_hockey.html#objective",
+    "href": "projects/ncaa_hockey.html#objective",
+    "title": "NCAA Hockey Performance Dashboard – Neutralizing Conference Bias",
+    "section": "",
+    "text": "This project aims to provide a more accurate evaluation of NCAA hockey players by neutralizing “conference bias.” Because different collegiate conferences feature varying levels of competition and distinct styles of play, raw performance metrics can often be misleading when comparing players across the country. This interactive dashboard adjusts for these competitive discrepancies to establish a level playing field for player evaluation."
+  },
+  {
+    "objectID": "projects/ncaa_hockey.html#data-sources",
+    "href": "projects/ncaa_hockey.html#data-sources",
+    "title": "NCAA Hockey Performance Dashboard – Neutralizing Conference Bias",
+    "section": "",
+    "text": "SportLogiq Tracking Data: Granular tracking and event data utilized to construct advanced, context-aware performance metrics."
+  },
+  {
+    "objectID": "projects/ncaa_hockey.html#tools-techniques",
+    "href": "projects/ncaa_hockey.html#tools-techniques",
+    "title": "NCAA Hockey Performance Dashboard – Neutralizing Conference Bias",
+    "section": "",
+    "text": "Python: Data cleaning, metric calculation, and backend logic.\nStreamlit: Development and deployment of the interactive web application.\nStatistical Adjustment: Developing methodologies to isolate player skill from conference strength and neutralize bias."
+  },
+  {
+    "objectID": "projects/ncaa_hockey.html#key-features",
+    "href": "projects/ncaa_hockey.html#key-features",
+    "title": "NCAA Hockey Performance Dashboard – Neutralizing Conference Bias",
+    "section": "",
+    "text": "Interactive interface allowing users to filter and compare players across the NCAA.\nVisualizations of conference-adjusted metrics for fairer, cross-conference talent assessment."
   }
 ]
