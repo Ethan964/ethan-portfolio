@@ -1,0 +1,26 @@
+---
+title: "NCAA Hockey Performance Dashboard – Neutralizing Conference Bias"
+---
+
+# Evaluating Player Performance Across Conferences
+
+[Live Streamlit Dashboard](http://ncaa-hockey.streamlit.app/)
+
+## Objective
+
+This project aims to provide a more accurate evaluation of NCAA hockey players by neutralizing "conference bias." Because different collegiate conferences feature varying levels of competition and distinct styles of play, raw performance metrics can often be misleading when comparing players across the country. This interactive dashboard adjusts for these competitive discrepancies to establish a level playing field for player evaluation.
+
+## Data Sources
+
+- **SportLogiq Tracking Data**: Granular tracking and event data utilized to construct advanced, context-aware performance metrics.
+
+## Tools & Techniques
+
+- **Python**: Data cleaning, metric calculation, and backend logic.
+- **Streamlit**: Development and deployment of the interactive web application.
+- **Statistical Adjustment**: Developing methodologies to isolate player skill from conference strength and neutralize bias.
+
+## Key Features
+
+- Interactive interface allowing users to filter and compare players across the NCAA.
+- Visualizations of conference-adjusted metrics for fairer, cross-conference talent assessment.

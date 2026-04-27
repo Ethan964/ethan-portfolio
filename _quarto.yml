@@ -13,9 +13,11 @@ website:
         text: About
       - text: Projects
         menu:
-          - href: projects/clutch-gene.qmd
+          - href: projects/ncaa_hockey.qmd
+            text: NCAA Hockey Dashboard
+          - href: projects/clutch_gene.qmd
             text: Clutch Gene
-          - href: projects/nyc-311.qmd
+          - href: projects/nyc_311.qmd
             text: NYC 311 Flooding Complaints
           - href: projects/boston_311.qmd
             text: Boston 311 Responsiveness

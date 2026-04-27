@@ -1,8 +1,8 @@
 # About Me
 
-I'm Ethan Long, an aspiring data scientist from Boston currently pursuing a **B.A. in Statistics** at the University of Connecticut (Class of 2026).
+I'm Ethan Long, an aspiring data scientist from Boston currently pursuing a **B.A. in Statistics** at the University of Connecticut (Class of 2026). 
 
-I'm passionate about using data to **solve problems**, **tell stories**, and **drive smarter decisions** — whether through predictive modeling, hypothesis testing, or visual analytics. My academic journey and hands-on projects have prepared me to work with large datasets, build models, and deliver clear insights.
+I'm passionate about using data to **solve problems**, **tell stories**, and **drive smarter decisions**, whether through predictive modeling, hypothesis testing, or visual analytics. My academic journey and hands-on projects have prepared me to work with large datasets, build models, and deliver clear insights.
 
 ## Interests
 
@@ -14,19 +14,20 @@ I'm passionate about using data to **solve problems**, **tell stories**, and **d
 
 ## Projects I've Worked On
 
+- **Regional Hockey Playing Styles (2026):** Division 1 Ice Hockey playing style analysis through conference alignment and regional area. 
 - **Clutch Gene (2025):** MLB postseason performance analysis using OPS, TB, and cWPA.
-+ **NYC 311 Service Requests**: Explored and analyzed 311 flooding complaints throughout NYC.
+- **NYC 311 Service Requests**: Explored and analyzed 311 flooding complaints throughout NYC.
 - **NYC Crash Data:** Cleaned & analyzed 500k+ crash records to find top contributors to severe crashes.
-- **Loan Approval Model:** Built a stepwise logistic model in R using 700k+ mortgage applications.
 - **Boston 311 Service Requests:** Developed predictive models to analyze municipal responsiveness.
 
 ## Technical Skills
 
-**Languages & Tools**: Python, R, SQL, SAS, Tableau, Excel  
-**Techniques**: Regression, Hypothesis Testing, Feature Engineering, Predictive Modeling, ETL, Web Scraping
+**Languages & Tools:** Python (Pandas, NumPy, scikit-learn), SQL (PostgreSQL, MySQL), R, SAS, Excel  
+**Quantitative Methods:** Statistical testing, Regression, Classification, Time series, Data cleaning, EDA
+**Tools:** Git, Jupyter, Tableau, Web Scraping (BeautifulSoup, Selenium)
 
 ## Contact
 
-**Email**: ethan.long@uconn.edu  
+**Email**: ethanklong@gmail.com
 **Location**:  Boston, MA  
 **Resume**: [View my resume](/projects/images/copy_Ethan_Long_Resume.pdf)

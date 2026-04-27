@@ -14,7 +14,7 @@ It explores the idea of a "clutch gene" – the potential for players to rise
 or fall in high-leverage situations.
 
 By analyzing detailed performance metrics and applying statistical techniques, 
-this study seeks to objectively evaluate "clutchness" and classifyplayer 
+this study seeks to objectively evaluate "clutchness" and classify player 
 archetypes that emerge under pressure
 
 ## Data Sources

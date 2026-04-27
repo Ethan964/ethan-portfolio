@@ -13,10 +13,8 @@ performance to analyzing NYC crash data.
 
 ## Featured Projects
 
-[Clutch Gene: Quantifying Performance Under Pressure in Baseball](projects/clutch-gene.qmd)
-
-An analysis of MLB postseason vs. regular season performance using statistical 
-testing, clustering, and logistic regression.
+[NCAA Hockey Performance Dashboard](projects/ncaa-hockey.qmd)
+An interactive Streamlit dashboard analyzing SportLogiq tracking data to evaluate player performance by neutralizing conference bias.
 
 [NYC 311 Flooding - Complaint Trends Dashboard](projects/nyc-311.qmd)
 `
