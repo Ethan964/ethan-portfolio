@@ -23,6 +23,6 @@ website:
             text: Boston 311 Responsiveness
 format:
   html:
-    theme: none
+    theme: litera
     css: styles.css
     toc: true
