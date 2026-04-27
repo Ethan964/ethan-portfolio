@@ -13,10 +13,10 @@ performance to analyzing NYC crash data.
 
 ## Featured Projects
 
-[NCAA Hockey Performance Dashboard](projects/ncaa-hockey.qmd)
+[NCAA Hockey Performance Dashboard](projects/ncaa_hockey.qmd)
 An interactive Streamlit dashboard analyzing SportLogiq tracking data to evaluate player performance by neutralizing conference bias.
 
-[NYC 311 Flooding - Complaint Trends Dashboard](projects/nyc-311.qmd)
+[NYC 311 Flooding - Complaint Trends Dashboard](projects/nyc_311.qmd)
 `
 Mapped and modeled flooding complaints in NYC to identify high-risk areas and 
 recurring seasonal patterns.
