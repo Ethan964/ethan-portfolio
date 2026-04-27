@@ -4,14 +4,11 @@ title: "Quantifying Clutchness – A Data-Driven Analysis of Performance Under P
 
 # Clutch Gene - MLB Postseason Performance Analysis
 
-[GitHub Repository](https://github.com/Ethan964/clutch-gene)
+[GitHub Repository](https://github.com/Ethan964/clutch-gene) | **Presented at the 2025 Connecticut Sports Analytics Symposium**
 
 ## Objective
-
-This project investigates whether Major League Baseball players perform
+This project investigates whether Major League Baseball players perform 
 differently under high-pressure situations compared to low-pressure situations.
-It explores the idea of a "clutch gene" – the potential for players to rise 
-or fall in high-leverage situations.
 
 By analyzing detailed performance metrics and applying statistical techniques, 
 this study seeks to objectively evaluate "clutchness" and classify player 
